@@ -1,6 +1,7 @@
 /*page setup*/
 body {
   background-size: cover;
+  background-image: geekoicon.png;
   font-family: sans-serif;
   /* this is to make sure that the text isn't obscured*/
   margin-top: 90px;
