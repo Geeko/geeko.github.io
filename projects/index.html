@@ -2,4 +2,9 @@
 layout: default
 title: Geeko Project Page
 ---
-<p><em>Sorry but there are no projects currently out! Check back in a little bit and I might have something out by then.</em></p>
+  <h1>{{ page.title }}</h1>
+  <ul class="posts">
+    
+    {% for project in site.project}
+      <li><span><a href="{{ project.url }}">{{ project.title }}</a>
+    {% endfor %}
