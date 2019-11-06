@@ -1,7 +1,6 @@
 /*page setup*/
 body {
   background-size: cover;
-  background-image: https://github.com/Geeko/geeko.github.io/blob/adding-a-background-image/images/geekoIcon.png;
   font-family: sans-serif;
   /* this is to make sure that the text isn't obscured*/
   margin-top: 90px;
@@ -47,11 +46,11 @@ a:hover{
  text-decoration: underline;
 }
 
-ul.posts { 
+ul.posts, #projectList { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
 }
 
-ul.posts li {
+ul.posts li, #projectList li {
     list-style: none;
 }
