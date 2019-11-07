@@ -57,10 +57,8 @@ ul.posts li, #projectList li {
 
 footer{
   border.top: 1px #00ccff;
-  background-color: #00ccff;
   position: relative;
   height: 80px;
   display: inline;
   align-items: center;
-  box-shadow: 0 0 25px 0 black;
 }
