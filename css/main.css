@@ -66,10 +66,3 @@ footer{
   display: inline;
   align-items: center;
 }
-
-.happyCoding {
-  color: rgb(255, 0, 102);
-  font-family: "Arial Black", Gadget, sans-serif;
-  text-decoration-line: overline underline;
-  text-decoration-style: wavy;
-}
