@@ -66,3 +66,5 @@ footer{
   display: inline;
   align-items: center;
 }
+
+img.avatar { margin-bottom: 30px; }
