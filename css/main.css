@@ -46,6 +46,10 @@ a:hover{
  text-decoration: underline;
 }
 
+a.visited{
+  color: #9999ff
+}
+
 ul.posts, #projectList { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
