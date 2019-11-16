@@ -1,4 +1,4 @@
-name: Geeko
+name: geeko
 markdown: kramdown
-site.title: Geeko
+title: geeko
 permalink: /blog/:year/:month/:day/:title
