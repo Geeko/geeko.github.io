@@ -1,3 +1,4 @@
 name: Geeko
 markdown: kramdown
+site.title: Geeko
 permalink: /blog/:year/:month/:day/:title
