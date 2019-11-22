@@ -4,7 +4,7 @@ layout: default
 <h1>{{ page.title }}</h1>
 
 <ul class="specifications">
-  {% if prerelease === True %}
+  {% if prerelease == True %}
   <li class="alert">This program is currently a prerelease</li>
   {% endif %}
  <li>Catagory: {{ catagory }}</li>
@@ -16,7 +16,7 @@ layout: default
 <div class="content">
   {{ content }}
   <p>Download at <a href={{ github }} target="_blank" title="github page">this link</a></p>
-  {% if prerelease === False %}
+  {% if prerelease == False %}
     <p> or here <a href={{ download }} target="_blank" title="download">at this link</a></p>
   {% endif %}
 </div>
