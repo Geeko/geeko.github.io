@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<h1>{{ page.title }}</h1>
+
+<ul class="specifications">
+  {% if prerelease === True %}
+  <li class="alert">This program is currently a prerelease</li>
+  {% endif %}
+ <li>Catagory: {{ catagory }}</li>
+ <li>Current Version: {{ version }}</li>
+ <li>Current Version Release Date: {{ releaseDate }}</li>
+ <li></li>
+</ul>
+
+<div class="content">
+  {{ content }}
+</div>
