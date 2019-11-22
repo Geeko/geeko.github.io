@@ -15,8 +15,8 @@ layout: default
 
 <div class="content">
   {{ content }}
-  <p>Download at </p>{{ github }}
+  <p>Download at <a href={{ github }} target="_blank" title="github page">this link</a></p>
   {% if prerelease === False %}
-    <p> or here </p>{{ download }}
+    <p> or here <a href={{ download }} target="_blank" title="download">at this link</a></p>
   {% endif %}
 </div>
