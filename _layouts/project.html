@@ -10,9 +10,13 @@ layout: default
  <li>Catagory: {{ catagory }}</li>
  <li>Current Version: {{ version }}</li>
  <li>Current Version Release Date: {{ releaseDate }}</li>
- <li></li>
+ <li>UI type: {{ ui }}</li>
 </ul>
 
 <div class="content">
   {{ content }}
+  <p>Download at </p>{{ github }}
+  {% if prerelease === False %}
+    <p> or here </p>{{ download }}
+  {% endif %}
 </div>
