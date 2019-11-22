@@ -71,3 +71,7 @@ img.avatar { margin-bottom: 30px; }
 .alert{
   background-color: rgb(255, 51, 0);
 }
+
+.specifications{
+  list-style-type: none;
+}
