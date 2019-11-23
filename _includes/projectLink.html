@@ -1,1 +1,1 @@
-{if page.prerelease == True}<span class="alert">[PRERELEASE]</span>{endif} <a href="{{ page.href }}" target="_blank">{{ page.name }}</a> {{ page.description }}
+{% if page.prerelease == True %}<span class="alert">[PRERELEASE]</span>{endif} <a href="{{ page.href }}" target="_blank">{{ page.projectName }}</a> {{ page.description }}
