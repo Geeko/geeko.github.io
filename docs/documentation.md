@@ -11,7 +11,8 @@
   This is the layout for blog posts made with markdown. All blog posts should use this layout. This layout displays the title
   of the page along with the date which is taken in the form of the variable `date` this is the same date as in the name of 
   the pages markdown file for more info look under the formatting section under post file naming, and also takes ina `content` 
-  variable. The `content` variable works the same as the one in the default layout. All other variables are dirived from the default layout.
+  variable. The `content` variable works the same as the one in the default layout. All other variables are dirived from the 
+  default layout.
   
 * [project.html](https://github.com/Geeko/geeko.github.io/blob/master/_layouts/project.html):<br>
   This layout is for project pages. All project pages should use this layout. this layout displays the specifiations with 5 
@@ -36,5 +37,29 @@
   head.html include. You can setup disqus for another site at this link https://disqus.com.
   
 * [email.html](https://github.com/Geeko/geeko.github.io/blob/master/_includes/email.html):<br>
-  This include is simply a anchor tag with the an href of `mailto:GeekoCodingStudios@gmail.com`. This include is 
-  a shortcut for writing out a link to Geeko Coding Studios' email. 
+  This include is simply a anchor tag with the an href of `mailto:GeekoCodingStudios@gmail.com`, a title of
+  `GeekoCodingStudios@gmail.com`, and a target of `_blank`. This include is a shortcut for writing out a link to Geeko Coding   
+  Studios' email. 
+  
+* [footer.html](https://github.com/Geeko/geeko.github.io/blob/master/_includes/footer.html):<br>
+  This include is a footer tag whith a inline style list with links to other ways to contact Geeko Coding Studios. This 
+  includes Geeko Coding Studios' email, github, and the websites github.
+  
+* [head.html](https://github.com/Geeko/geeko.github.io/blob/master/_includes/head.html):<br>
+  This include sets up the pages utf as `utf-8`, sets up the veiwport to fit the screen, includes google analytics, and links 
+  the stylesheet. 
+  
+* [header.html](https://github.com/Geeko/geeko.github.io/blob/master/_includes/header.html):<br>
+  This include is a list of links to each of the pages of the website. This list is styled with a blue background and a shadow 
+  along with an `inline` list-style-type element.
+  
+## Formatting
+
+*  Post markdown file naming:<br>
+  All posts markdown files should use the format `yyyy-mm-dd-name-of-post.md`. In this example 'y' stands for year, 'm' stands 
+  for month, 'd' stands for day, 'name-of-post' should be replaced with the name of the post with each word seperared by a '-'.
+  
+* Linking a project page to the projects list:<br>
+  When adding a new project to the projects list add an anchor to the project's page. The content inside the anchor tags should 
+  be the name of the project. The link should be followed immediately without a space by a ':'. After the colon a space is 
+  added then a short explanation to get the reader to check out the project.
