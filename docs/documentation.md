@@ -24,4 +24,5 @@
   is a download area at the bottom. If the `prerelease` variable is `False` then a link to the project's website's download 
   page. The link to the project's github is always present
   
-***
+  ## Includes
+  * [h[hi](https://github.com)i](https://geeko.github.io)
