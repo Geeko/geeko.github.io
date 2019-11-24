@@ -25,4 +25,5 @@
   page. The link to the project's github is always present
   
   ## Includes
-  * [h[hi](https://github.com)i](https://geeko.github.io)
+* [analytics](https://github.com/Geeko/geeko.github.io/blob/master/_includes/analytics.html):<br>
+  this is a `html <script>`
