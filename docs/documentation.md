@@ -15,7 +15,7 @@
   
 * [project.html](https://github.com/Geeko/geeko.github.io/blob/master/_layouts/project.html):<br>
   This layout is for project pages. All project pages should use this layout. this layout displays the specifiations with 5 
-  variables: `prerelease` which if `True` displays <span class="alert">[PRERELEASE]</span> at the top of the specifications 
+  variables: `prerelease` which if `True` displays a red \[PRERELEASE] at the top of the specifications 
   list, `catagory` this is the catagory under which the project falls such as game, or utility, `version` this is the latest 
   version number of the project, `releaseDate` this is the release date of the latest version, and `ui` this is the type of ui 
   it has which is either text based or image based. There is then a `content` variable which works the same as in default and 
@@ -26,4 +26,13 @@
   
   ## Includes
 * [analytics](https://github.com/Geeko/geeko.github.io/blob/master/_includes/analytics.html):<br>
-  this is a `html <script>`
+  This is the google analytics script. This script uses cookies from google to collect user data to get a quick overveiw of the
+  users on the site. This include is called in the head.html include. To setup a new analytics for a new site the link is 
+  https://analytics.google.com. 
+
+* [disqus.html](https://github.com/Geeko/geeko.github.io/blob/master/_includes/disqus.html):<br>
+  This is the disqus script. Disqus is open source code for a disqus section that you can log into and use an account across 
+  multiple websites to get email updates about your comments on different page's disscusions. This include is called in the 
+  head.html include. You can setup disqus for another site at this link https://disqus.com.
+  
+* [email.html](https://github.com/Geeko/geeko.github.io/blob/master/_includes/email.html)
