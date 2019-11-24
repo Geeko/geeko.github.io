@@ -36,5 +36,5 @@
   head.html include. You can setup disqus for another site at this link https://disqus.com.
   
 * [email.html](https://github.com/Geeko/geeko.github.io/blob/master/_includes/email.html):<br>
-  This include is simply a anchor tag with the an href of 'mailto:GeekoCodingStudios@gmail.com'. This included is 
+  This include is simply a anchor tag with the an href of `mailto:GeekoCodingStudios@gmail.com`. This include is 
   a shortcut for writing out a link to Geeko Coding Studios' email. 
