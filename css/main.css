@@ -75,3 +75,7 @@ img.avatar { margin-bottom: 30px; }
 .specifications{
   list-style-type: none;
 }
+
+footer{
+  padding: 20px;
+}
