@@ -9,7 +9,7 @@ of them to see what works best for you. I would also like to note that Geeko Cod
 sites mentioned in this article.Whithout furthur ado lets get into the list.
 
 * [![Scratch Logo](https://scratch.mit.edu/images/logo_sm.png)](https://scratch.mit.edu)<br>
-  Scratch is ever popular among begginners and young children. Just because scratch is made for children does not mean people
+  Scratch is ever popular among beginners and young children. Just because scratch is made for children does not mean people
   of all ages use it as a platform to make amazing projects. In scratch you drag code blocks to manipulate sprites to create 
   animations and games. After you finish you project you can post it for other Scratchers to see. You can also look at other's
   projects. To get started with Scratch just click on the Scratch logo. After you open the link open the menu in the top 
