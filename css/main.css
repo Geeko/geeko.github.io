@@ -81,3 +81,7 @@ footer{
   padding-bottom: 50px;
   margin: 30px;
 }
+
+code {
+  background-color: gainsboro;
+}
