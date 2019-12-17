@@ -5,7 +5,6 @@ body {
   /* this is to make sure that the text isn't obscured*/
   margin-top: 90px;
   /* add some padding to the body */
-  background-image: url("https://geeko.github.io/imgs/background.png");
 }
 
 main {
@@ -19,7 +18,7 @@ main:after {
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url(/wp-content/uploads/2010/11/tandem.jpg); 
+    background-image: url("https://geeko.github.io/imgs/background.png");
     width: 100%;
     height: 100%;
     opacity : 0.2;
