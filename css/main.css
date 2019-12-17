@@ -5,7 +5,7 @@ body {
   /* this is to make sure that the text isn't obscured*/
   margin-top: 90px;
   /* add some padding to the body */
-  background-image: url("https://www.geeko.github.io/imgs/background.png");
+  background-image: url("https://geeko.github.io/imgs/background.png");
 }
 
 main {
