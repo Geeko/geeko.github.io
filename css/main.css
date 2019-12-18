@@ -23,6 +23,9 @@ main:after {
     height: 100%;
     opacity : 0.9;
     z-index: -1;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center;
 }
 
 /* actual styling*/
