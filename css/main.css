@@ -2,6 +2,8 @@
 body {
   background-size: cover;
   font-family: sans-serif;
+  background-image: url("https://geeko.github.io/imgs/background.png");
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(IMAGE_URL);
   /* this is to make sure that the text isn't obscured*/
   margin-top: 90px;
   /* add some padding to the body */
@@ -10,22 +12,6 @@ body {
 main {
   color: black;
   padding: 50px;
-}
-
-main:after {
-    content : "";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-image: url("https://geeko.github.io/imgs/background.png");
-    width: 100%;
-    height: 100%;
-    opacity : 0.9;
-    z-index: -1;
-    background-repeat: no-repeat; 
-    background-attachment: fixed; 
-    background-position: center;
 }
 
 /* actual styling*/
